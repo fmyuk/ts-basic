@@ -14,7 +14,8 @@
 
 // 04.関数の型定義
 // import { alwaysThrowError, logMessage, logMessage2, logMessage3, logMessage4 } from "./function/basic";
-import { isUserSignedIn, isUserSignedIn2 } from "./function/parameters";
+// import { logMessage6, logMessage7 } from "./function/basic";
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice } from "./function/parameters";
 
 // logMessage("Hello TypeScript!");
 // logMessage2("Hello TypeScript!");
@@ -22,6 +23,17 @@ import { isUserSignedIn, isUserSignedIn2 } from "./function/parameters";
 // logMessage4("Hello TypeScript!");
 // alwaysThrowError("Hello TypeScript!");
 
-isUserSignedIn("ABC", "user");
-isUserSignedIn("DEF");
-isUserSignedIn2("ABC");
+// isUserSignedIn("ABC", "user");
+// isUserSignedIn("DEF");
+// isUserSignedIn2("ABC");
+// const sum = sumProductsPrice(100, 200, 300, 400, 500);
+// console.log("Function parameters sample 5:", sum);
+// logMessage6("Hello TypeScript!");
+// logMessage7("Hello TypeScript!");
+
+// 05.オブジェクトの型定義
+// import objectSample from "./object/object";
+import typeAliasSample from "./object/alias";
+
+// objectSample();
+typeAliasSample();
