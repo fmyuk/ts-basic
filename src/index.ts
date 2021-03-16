@@ -33,7 +33,14 @@
 
 // 05.オブジェクトの型定義
 // import objectSample from "./object/object";
-import typeAliasSample from "./object/alias";
+// import typeAliasSample from "./object/alias";
 
-// objectSample();
-typeAliasSample();
+// // objectSample();
+// typeAliasSample();
+
+// 06.配列とタプルの型定義
+import tupleSample from "./array/tuple";
+import arraySample from "./array/array";
+
+arraySample();
+tupleSample();
